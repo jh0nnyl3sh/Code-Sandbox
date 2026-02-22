@@ -1,0 +1,22 @@
+# 1. Python ve Sistem Kalıntıları
+__pycache__/
+*.pyc
+.DS_Store
+
+# 2. Sanal Ortam (Çok büyük boyutludur, GitHub'a atılmaz)
+venv/
+env/
+
+# 3. OPSEC - Gizli Şifreler ve API Anahtarları (En Kritiği!)
+.env
+*.key
+
+# 4. Veri Çıktıları (Data Engine Tarafından Üretilenler)
+*.xlsx
+*.csv
+*.json
+
+# 5. Görsel İstihbarat Çıktıları (Visual Engine Tarafından Üretilenler)
+*.png
+*.jpg
+*.pdf
