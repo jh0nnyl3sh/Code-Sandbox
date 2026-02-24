@@ -30,9 +30,12 @@ if __name__ == "__main__":
     # Etik Hacking Kuralı 1 : İzinsiz tarama yapma!
     hedef = "scanme.nmap.org"
     
+    #hedef = "192.168.64.5"
+    
+    
     # En kritik kapılar: 21 (FTP), 22 (SSH),
     # 80 (HTTP), 443 (HTTPS) 3306 (MySQL), 3389 (RDP)
-    kritik_portlar = [21, 22, 80, 443, 3306, 3389]
+    kritik_portlar = [21, 22, 80, 443, 3306, 3389, 23, 25, 110, 445, 139]
     
     hedef_tara(hedef, kritik_portlar)
         
